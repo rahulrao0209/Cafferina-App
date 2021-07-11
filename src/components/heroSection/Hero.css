@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    height: 500px;
+    background: #AF764C;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image img {
+    width: 80%;
+    margin: 30px 11vw;
+}
+
+
+

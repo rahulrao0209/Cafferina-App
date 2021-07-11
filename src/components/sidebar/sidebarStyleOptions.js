@@ -1,6 +1,6 @@
 export const sidebarOpenStyle = {
     opacity: '100%',
-    top: '60px',
+    top: '50px',
     transition: 'all 0.4s ease',
 }
 
