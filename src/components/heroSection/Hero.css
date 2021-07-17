@@ -10,13 +10,49 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-.hero-image img {
-    width: 80%;
-    margin: 30px 11vw;
+.hero-image {
+    display: flex;
+    flex-direction: column;
 }
+
+.hero-image img {
+    width: 68%;
+    margin-left: 4vw;
+    align-self: center;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 7vw;
+    max-width: 300px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.hero-title span {
+    color: #3F1F01;
+}
+
+.hero-button {
+    background: rgba(244, 244, 244, 23%);
+    text-align: center;
+    padding: 12px 24px;
+    margin: 16px 0;
+    color: #fff;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.hero-button a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 
 

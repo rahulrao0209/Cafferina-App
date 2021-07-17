@@ -11,6 +11,12 @@ export const Hero = () => {
                             src="./assets/images/hero-section/coffee-hero-img.png"
                             alt="coffee-mug"/>
                     </div>
+                    <div className="hero-title">
+                        <h1><span>Coffees</span> Crafted for you</h1>
+                    </div>
+                    <div className="hero-button">
+                        <a href="order-now">Order Now</a>
+                    </div>
                 </div>
             </section>
         </>
