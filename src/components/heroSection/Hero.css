@@ -4,11 +4,12 @@
 }
 
 .hero-section {
-    height: 500px;
+    min-height: 500px;
     background: #AF764C;
 }
 .hero-container {
     display: flex;
+    padding: 16px 0 0 0;
     flex-direction: column;
     align-items: center;
 }
