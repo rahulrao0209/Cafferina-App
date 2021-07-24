@@ -4,22 +4,23 @@
 }
 
 .menu {
-    background: rgba(229, 229, 229, 25%);
+    background: rgba(229, 229, 229, 25%); 
+    min-height: 600px;
 }
 
 .menu-title {
     padding: 16px 0 0 0;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
 }
 .menu-buttons {
     margin: 8px 0;
-    position: relative;
+    /* position: relative; */
 }
 
 .menu-buttons--left, .menu-buttons--right{
     position: absolute;
-    background: rgba(229, 229, 229, 25%);
+    background: transparent;
     border: none;
     font-size: 24px;
     text-align: center;

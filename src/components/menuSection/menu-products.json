@@ -1,0 +1,30 @@
+[{
+    "id": 1,
+    "name": "Whipped Mocha",
+    "src": "./assets/images/menu-section/whipped-mocha.png"
+},
+{
+    "id": 2,
+    "name": "Double Cream'e",
+    "src": "./assets/images/menu-section/double-creame.png"
+},
+{
+    "id": 3,
+    "name": "Choco Latte",
+    "src": "./assets/images/menu-section/choco-latte.png"
+},
+{
+    "id": 4,
+    "name": "Latte Royale",
+    "src": "./assets/images/menu-section/latte-royale.png"
+},
+{
+    "id": 5,
+    "name": "Hard Black Creame",
+    "src": "./assets/images/menu-section/hard-black-creame.png"
+},
+{
+    "id": 6,
+    "name": "Plain Mocha",
+    "src": "./assets/images/menu-section/plain-mocha.png"
+}]

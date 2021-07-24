@@ -1,18 +1,18 @@
 import React from 'react'
 import './MenuItem.css';
-export const MenuItem = () => {
+export const MenuItem = ({ name, src }) => {
     return (
         <div>
             <div className="menu-item-container">
                 <div className="menu-item-wrapper">
                     <div className="menu-image">
                         <img
-                            src="./assets/images/menu-section/whipped-mocha.png"
-                            alt="whipped-mocha"
+                            src={src}
+                            alt={name}
                         />
                     </div>
                     <div className="menu-content">
-                        <p>Whipped Mocha</p>
+                        <p>{name}</p>
                         <a href="#order-item-whipped-mocha">Place Order</a>
                     </div>
                 </div>
