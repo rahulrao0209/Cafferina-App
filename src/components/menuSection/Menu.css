@@ -20,6 +20,7 @@
 
 .menu-buttons--left, .menu-buttons--right{
     position: absolute;
+    z-index: 100;
     background: transparent;
     border: none;
     font-size: 24px;

@@ -6,6 +6,7 @@ export const sidebarOpenStyle = {
 
 export const sidebarCloseStyle = {
     opacity: '0',
+    display: 'none',
     top: '-100%',
     transition: 'all 0.4s ease'
 }

@@ -9,7 +9,7 @@
     height: 50px;
     top: 0;
     position: fixed;
-    z-index: 100;
+    z-index: 105;
 }
 
 .navbar-wrapper {
@@ -24,6 +24,7 @@
 
 .sidebar-menu-icon {
     font-size: 24px;
+    z-index: 106;
     position: relative;
     top: 4px;
     color: #fff;

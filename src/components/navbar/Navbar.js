@@ -8,14 +8,15 @@ export const Navbar = () => {
 
     return (
         <>
-            <div className="navbar-container"
-             onClick={() => setSidebarIsOpen(!sidebarIsOpen)}>
+            <div className="navbar-container">
                 <div className="navbar-wrapper">
                     <div className="navbar-logo">
                         Cafferina
                     </div>
-                    <div className="sidebar-menu-icon"
-                    style={ sidebarIsOpen ? {opacity: 0} : {opacity: 1}}
+                    <div 
+                        className="sidebar-menu-icon"
+                        onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
+                        style={ sidebarIsOpen ? {opacity: 0} : {opacity: 1}}
                     >
                         <SiCoffeescript />
                     </div>

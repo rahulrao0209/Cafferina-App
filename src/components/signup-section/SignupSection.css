@@ -41,6 +41,7 @@
     border: none;
     outline: none;
     box-shadow: 2px 7px rgba(0, 0, 0, 9%);
+    z-index: 100;
 }
 
 .signup-form-button {
