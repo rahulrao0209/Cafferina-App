@@ -37,9 +37,10 @@
     font-size: 16px;
 }
 
-.blog-content--content span {
+.blog-content--content span a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #1FAF3F;
+    text-decoration: none;
 }

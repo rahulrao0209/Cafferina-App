@@ -5,8 +5,9 @@
 
 .hero-section {
     min-height: 500px;
-    background: #AF764C;
+    background: #AF764C; 
 }
+
 .hero-container {
     display: flex;
     margin-top: 50px;
@@ -52,6 +53,7 @@
 .hero-button a {
     color: white;
     text-decoration: none;
+    margin-bottom: 12px;
 }
 
 

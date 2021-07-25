@@ -5,6 +5,7 @@ import { Hero } from './components/heroSection/Hero';
 import { Menu } from './components/menuSection/Menu';
 import { SignupSection } from './components/signup-section/SignupSection';
 import { BlogSection } from './components/blogSection/BlogSection';
+import { Footer } from './components/footerSection/Footer';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Menu />
             <SignupSection />
             <BlogSection />
+            <Footer />
         </>
     )
 }

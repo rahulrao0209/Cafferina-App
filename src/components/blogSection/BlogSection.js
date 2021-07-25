@@ -19,7 +19,7 @@ export const BlogSection = () => {
                     <p className="blog-content--content">
                         Since coffee contains caffeine, 
                         this popular beverage can help people feel less tired, 
-                        increase energy level.  <span>Read More...</span>
+                        increase energy level.  <span><a href="#readmore">Read More...</a></span>
                     </p>
                 </div>
            </div>
@@ -37,7 +37,7 @@ export const BlogSection = () => {
                     </p>
                     <p className="blog-content--content">
                         Coffee has been identified as the most common and beloved drinks over the world 
-                        from households to workplaces  <span>Read More...</span>
+                        from households to workplaces  <span><a href="#readmore">Read More...</a></span>
                     </p>
                 </div>
             </div>  
