@@ -15,7 +15,7 @@ function App() {
             <Menu />
             <SignupSection />
             <BlogSection />
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

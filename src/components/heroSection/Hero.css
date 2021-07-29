@@ -1,62 +1,59 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .hero-section {
-    min-height: 500px;
-    background: #AF764C; 
+  min-height: 500px;
+  /* background: #AF764C;  */
+  background: rgb(255, 255, 240);
 }
 
 .hero-container {
-    display: flex;
-    margin-top: 50px;
-    padding: 16px 0 0 0;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  margin-top: 50px;
+  padding: 16px 0 0 0;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-image {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-image img {
-    width: 68%;
-    margin-left: 4vw;
-    align-self: center;
+  width: 90%;
+  /* margin-left: 4vw; */
+  align-self: center;
 }
 
 .hero-title {
-    color: #fff;
-    font-size: 7vw;
-    max-width: 300px;
-    margin: 25px 0;
-    text-align: center;
+  /* color: #fff; */
+  padding: 0 12px;
+  color: #af764c;
+  font-size: 7vw;
+  max-width: 300px;
+  margin: 25px 0;
+  text-align: center;
 }
 
 .hero-title span {
-    color: #3F1F01;
+  color: #3f1f01;
 }
 
 .hero-button {
-    background: rgba(244, 244, 244, 23%);
-    text-align: center;
-    padding: 12px 24px;
-    margin: 16px 0;
-    color: #fff;
-    width: 80%;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 24px;
+  background: rgb(240, 235, 210);
+  text-align: center;
+  padding: 12px 24px;
+  margin: 16px 0;
+  width: 80%;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 60px;
 }
 
 .hero-button a {
-    color: white;
-    text-decoration: none;
-    margin-bottom: 12px;
+  color: #af764c;
+  text-decoration: none;
 }
-
-
-
-
-
