@@ -4,9 +4,9 @@
 }
 
 .menu {
-  /* background: rgba(229, 229, 229, 25%); */
   background: rgb(255, 255, 220);
   min-height: 600px;
+  font-family: "Courgette", cursive;
 }
 
 .menu-title {
@@ -16,7 +16,6 @@
 }
 .menu-buttons {
   margin: 8px 0;
-  /* position: relative; */
 }
 
 .menu-buttons--left,

@@ -1,60 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap");
 
 .signup-image {
-    display: flex;
-    justify-content: center;
-    margin: 40px 0 0 0;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
 }
 
 .signup-image img {
-    width: 70%;
+  width: 70%;
 }
 
 .primary-title {
-    font-size: 26px;
-    text-align: center;
-    color: #423F6F;
+  font-family: "Courgette", cursive;
+  font-size: 26px;
+  text-align: center;
+  color: #423f6f;
 }
 
 .secondary-title {
-    margin: 10px 0;
-    padding: 0 20px;
-    color: rgba(66,63,111,70%);
-    text-align: center;
+  margin: 10px 0;
+  padding: 0 20px;
+  color: rgba(66, 63, 111, 70%);
+  text-align: center;
 }
 
 .signup-form {
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .signup-form-input {
-    margin: 0 auto;
-    background: #EEEEEE;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    width: 70%;
-    padding: 16px 24px;
-    border-radius: 12px;
-    border: none;
-    outline: none;
-    box-shadow: 2px 7px rgba(0, 0, 0, 9%);
-    z-index: 100;
+  margin: 0 auto;
+  background: #eeeeee;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  width: 70%;
+  padding: 16px 24px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 7px rgba(0, 0, 0, 9%);
+  z-index: 100;
 }
 
 .signup-form-button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin: 16px auto;
-    width: 70%;
-    padding: 16px 24px;
-    border-radius: 12px;
-    border: none;
-    outline: none;
-    background: #1FAF3F;
-    color: #fff;
-    box-shadow: 2px 6px rgba(0, 0, 0, 6%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 16px auto;
+  width: 70%;
+  padding: 16px 24px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: #1faf3f;
+  color: #fff;
+  box-shadow: 2px 6px rgba(0, 0, 0, 6%);
 }

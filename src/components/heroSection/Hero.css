@@ -5,8 +5,8 @@
 
 .hero-section {
   min-height: 500px;
-  /* background: #AF764C;  */
   background: rgb(255, 255, 240);
+  font-family: "Courgette", cursive;
 }
 
 .hero-container {
@@ -43,6 +43,7 @@
 
 .hero-button {
   background: rgb(240, 235, 210);
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 12px 24px;
   margin: 16px 0;

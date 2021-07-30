@@ -1,46 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
 
 .blog-container {
-    display: flex;
-    flex-flow:column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .first-blog {
-    display: flex;
-    flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .blog-image {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .blog-image--image {
-    max-width: 75%
+  max-width: 75%;
 }
 
 .blog-content {
-    margin-top: 16px;
+  margin-top: 16px;
+  font-family: "Courgette", cursive;
 }
 
 .blog-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .blog-content--content {
-    margin: 12px auto;
-    max-width: 75%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+  margin: 12px auto;
+  max-width: 75%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .blog-content--content span a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #1FAF3F;
-    text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #1faf3f;
+  text-decoration: none;
 }

@@ -1,25 +1,20 @@
-import React from 'react'
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 export const Footer = () => {
-    return (
-        <div className="footer-container">
-            <div className="footer-column">
-                <p className="footer-column--title">About Us</p>
-                <p>Our Heritage</p>
-                <p>Our Company</p>
-                <p>Contact Us</p>
-            </div>
-            <div className="footer-column">
-                <p className="footer-column--title">Customer Service</p>
-                <p>FAQ's</p>
-                <p>Site Maps</p>
-                <p>Cookie Preferences</p>
-            </div>
-            <div className="footer-column">
-                <p className="footer-column--title">Quick Links</p>
-                <p>Store Locator</p>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="footer-container">
+      <p className="footer-logo">Cafferina</p>
+      <div className="footer-wrapper">
+        <p>Our Heritage</p>
+        <p>Our Company</p>
+        <p>Contact Us</p>
+        <p>FAQ's</p>
+        <p>Site Maps</p>
+        <p>Cookie Preferences</p>
+        <p>Store Locator</p>
+      </div>
+      <p className="copyright">© 2021 Caffeina</p>
+    </div>
+  );
+};
