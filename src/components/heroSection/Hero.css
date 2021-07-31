@@ -43,7 +43,9 @@
 
 .hero-button {
   background: rgb(240, 235, 210);
+  color: #af764c;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
   text-align: center;
   padding: 12px 24px;
   margin: 16px 0;
@@ -52,9 +54,4 @@
   border-radius: 10px;
   font-size: 24px;
   margin-bottom: 60px;
-}
-
-.hero-button a {
-  color: #af764c;
-  text-decoration: none;
 }

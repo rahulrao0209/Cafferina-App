@@ -17,7 +17,7 @@ function App() {
           <Route path="/order">
             <Order />
           </Route>
-          <Route path="/order">
+          <Route path="/about">
             <About />
           </Route>
         </Layout>

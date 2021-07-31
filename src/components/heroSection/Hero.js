@@ -17,9 +17,9 @@ export const Hero = () => {
               <span>Coffees</span> Crafted for you
             </h1>
           </div>
-          <div className="hero-button">
-            <Link to="/order">Order Now</Link>
-          </div>
+          <Link className="hero-button" to="/order">
+            <div>Order Now</div>
+          </Link>
         </div>
       </section>
     </>
