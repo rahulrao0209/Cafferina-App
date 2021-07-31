@@ -1,22 +1,28 @@
 import React from "react";
+import { Layout } from "./components/Layout";
+import { Home } from "./components/Home";
+import { Order } from "./components/Order";
+import { About } from "./components/About";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import { Navbar } from "./components/navbar/Navbar";
-import { Hero } from "./components/heroSection/Hero";
-import { Menu } from "./components/menuSection/Menu";
-import { SignupSection } from "./components/signup-section/SignupSection";
-import { BlogSection } from "./components/blogSection/BlogSection";
-import { Footer } from "./components/footerSection/Footer";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Menu />
-      <SignupSection />
-      <BlogSection />
-      <Footer />
-    </>
+    <Router>
+      <Switch>
+        <Layout>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/order">
+            <Order />
+          </Route>
+          <Route path="/order">
+            <About />
+          </Route>
+        </Layout>
+      </Switch>
+    </Router>
   );
 }
 

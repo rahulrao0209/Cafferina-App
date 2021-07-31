@@ -14,7 +14,10 @@ export const Footer = () => {
         <p>Cookie Preferences</p>
         <p>Store Locator</p>
       </div>
-      <p className="copyright">© 2021 Caffeina</p>
+      <div className="copyright">
+        <p>© 2021 Caffeina</p>
+        <p>Built using React</p>
+      </div>
     </div>
   );
 };

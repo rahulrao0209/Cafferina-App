@@ -31,3 +31,9 @@
   text-align: center;
   padding-bottom: 60px;
 }
+
+.copyright p:nth-child(2) {
+  margin-top: 4px;
+  font-weight: bolder;
+  color: black;
+}
