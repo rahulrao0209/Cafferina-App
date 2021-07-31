@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 export const Footer = () => {
   return (
     <div className="footer-container">
-      <p className="footer-logo">Cafferina</p>
+      <p className="footer-logo">
+        <Link to="/">Cafferina</Link>
+      </p>
       <div className="footer-wrapper">
         <p>Our Heritage</p>
         <p>Our Company</p>

@@ -44,9 +44,9 @@
   margin: 0 16px;
 }
 
-.navbar-logo {
-  /* color: #fff; */
+.navbar-logo a {
   color: #af764c;
+  text-decoration: none;
   font-family: "Courgette", cursive;
   font-size: 24px;
 }
