@@ -1,12 +1,11 @@
 export const sidebarOpenStyle = {
-    opacity: '100%',
-    top: '50px',
-    transition: 'all 0.4s ease',
-}
+  opacity: "1",
+  top: "50px",
+  left: "0px",
+};
 
 export const sidebarCloseStyle = {
-    opacity: '0',
-    display: 'none',
-    top: '-100%',
-    transition: 'all 0.4s ease'
-}
+  opacity: "0",
+  top: "-100vh",
+  left: "0px",
+};
