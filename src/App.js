@@ -1,8 +1,8 @@
 import React from "react";
-import { Layout } from "./components/Layout";
-import { Home } from "./components/Home";
-import { Order } from "./components/Order";
-import { About } from "./components/About";
+import { Layout } from "../src/pages/Layout";
+import { Home } from "../src/pages/Home";
+import { Order } from "../src/pages/Order";
+import { About } from "../src/pages/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 

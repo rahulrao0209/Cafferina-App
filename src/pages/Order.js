@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero } from "./heroSection/Hero";
+import { Hero } from "../components/heroSection/Hero";
 export const Order = () => {
   return (
     <>
