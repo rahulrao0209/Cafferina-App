@@ -38,3 +38,13 @@
   right: 35%;
   color: #30b7c0;
 }
+
+/*Desktop Screen*/
+@media (min-width: 992px) {
+  .menu-product--desktop {
+    display: grid;
+    max-width: 900px;
+    margin: 30px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

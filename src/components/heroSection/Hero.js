@@ -6,16 +6,18 @@ export const Hero = () => {
     <>
       <section className="hero-section">
         <div className="hero-container">
-          <div className="hero-image">
-            <img
-              src="./assets/images/hero-section/coffee-hero.png"
-              alt="coffee-mug"
-            />
-          </div>
-          <div className="hero-title">
-            <h1>
-              <span>Coffees</span> Crafted for you
-            </h1>
+          <div className="hero-content">
+            <div className="hero-image">
+              <img
+                src="./assets/images/hero-section/coffee-hero.png"
+                alt="coffee-mug"
+              />
+            </div>
+            <div className="hero-title">
+              <p>
+                <span>Coffees</span> Crafted for you
+              </p>
+            </div>
           </div>
           <Link className="hero-button" to="/order">
             <div>Order Now</div>

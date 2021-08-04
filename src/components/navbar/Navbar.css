@@ -4,7 +4,6 @@
 }
 
 .navbar-container {
-  /* background: #af764c; */
   background: rgb(255, 255, 240);
   box-shadow: 0px 6px 8px rgb(236, 235, 235);
   width: 100%;
@@ -30,7 +29,6 @@
   position: relative;
   top: 4px;
   color: #af764c;
-  /* color: #fff; */
 }
 
 .navbar-links {
@@ -40,8 +38,14 @@
 }
 
 .navbar-link a {
+  color: #af764c;
   text-decoration: none;
   margin: 0 16px;
+}
+
+.navbar-link a:hover {
+  color: #5c3e29;
+  transition: color ease 0.5s;
 }
 
 .navbar-logo a {
@@ -49,4 +53,15 @@
   text-decoration: none;
   font-family: "Courgette", cursive;
   font-size: 24px;
+}
+
+/*Tablet screen*/
+@media (min-width: 768px) {
+  .sidebar-menu-icon {
+    display: none;
+  }
+
+  .navbar-links {
+    display: flex;
+  }
 }

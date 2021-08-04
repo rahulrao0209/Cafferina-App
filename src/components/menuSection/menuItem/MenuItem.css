@@ -29,6 +29,7 @@
 
 .menu-content p {
   width: 100%;
+  overflow: hidden;
   height: 75px;
   text-align: center;
   font-size: 18px;
@@ -45,4 +46,15 @@
   padding: 16px 0;
   font-size: 18px;
   text-align: center;
+}
+
+/*Desktop Screen*/
+@media (min-width: 992px) {
+  .menu-item-container {
+    padding: 16px 0;
+  }
+
+  .menu-content p {
+    overflow: hidden;
+  }
 }

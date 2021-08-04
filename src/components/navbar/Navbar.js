@@ -24,13 +24,13 @@ export const Navbar = () => {
           <Sidebar sidebarIsOpen={sidebarIsOpen} />
           <ul className="navbar-links">
             <li className="navbar-link">
-              <a href="#search">Search</a>
+              <a href="#search">Find Store</a>
             </li>
             <li className="navbar-link">
-              <a href="#cart">Cart</a>
+              <a href="#cart">Place Order</a>
             </li>
             <li className="navbar-link">
-              <a href="#order-now">Order Now</a>
+              <a href="#order-now">About us</a>
             </li>
           </ul>
         </div>
