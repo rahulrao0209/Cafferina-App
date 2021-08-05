@@ -17,6 +17,12 @@ export const Hero = () => {
               <p>
                 <span>Coffees</span> Crafted for you
               </p>
+              <p className="hero-title--info">
+                We make sure everything we do honors that connection – from our
+                commitment to the highest quality coffee in the world, to the
+                way we engage with our customers and communities to do business
+                responsibly.
+              </p>
             </div>
           </div>
           <Link className="hero-button" to="/order">

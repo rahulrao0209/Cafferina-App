@@ -46,6 +46,10 @@
   color: #3f1f01;
 }
 
+.hero-title--info {
+  display: none;
+}
+
 .hero-button {
   background: rgb(240, 235, 210);
   color: #af764c;
@@ -96,14 +100,20 @@
     max-width: 400px;
   }
 
+  .hero-title--info {
+    display: block;
+    font-size: 14px;
+    margin: 8px 0 16px 0;
+  }
+
   .hero-button {
     width: 400px;
     padding: 12px 12px;
     font-size: 22px;
     border-radius: 10px;
     position: absolute;
-    top: 350px;
-    right: 155px;
+    top: 370px;
+    right: 165px;
   }
 
   .hero-button:hover {

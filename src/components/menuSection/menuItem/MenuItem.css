@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.menu-content a:hover {
+  color: black;
+}
+
 /*Desktop Screen*/
 @media (min-width: 992px) {
   .menu-item-container {
