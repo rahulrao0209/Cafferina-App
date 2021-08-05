@@ -48,10 +48,6 @@
   text-align: center;
 }
 
-.menu-content a:hover {
-  color: black;
-}
-
 /*Desktop Screen*/
 @media (min-width: 992px) {
   .menu-item-container {
@@ -60,5 +56,9 @@
 
   .menu-content p {
     overflow: hidden;
+  }
+
+  .menu-content a:hover {
+    color: black;
   }
 }
