@@ -49,3 +49,37 @@
   color: #1faf3f;
   text-decoration: none;
 }
+
+/*Desktop Screen*/
+@media (min-width: 992px) {
+  .first-blog {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .second-blog {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .blog-content {
+    max-width: 400px;
+    text-align: left;
+  }
+
+  .blog-title {
+    font-size: 26px;
+  }
+
+  .blog-content--content {
+    font-size: 22px;
+  }
+
+  .blog-content--content span a {
+    font-size: 22px;
+  }
+}

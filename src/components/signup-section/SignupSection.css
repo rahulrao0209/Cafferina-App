@@ -83,4 +83,8 @@
   .signup-form-button {
     width: 100%;
   }
+
+  .signup-form-button:hover {
+    background: #45d664;
+  }
 }
