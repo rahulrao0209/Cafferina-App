@@ -39,3 +39,11 @@
   font-weight: bolder;
   color: black;
 }
+
+/*Desktop Screen*/
+@media (min-width: 992px) {
+  .footer-logo a:hover,
+  .footer-wrapper p:hover {
+    color: rgba(0, 0, 0);
+  }
+}
