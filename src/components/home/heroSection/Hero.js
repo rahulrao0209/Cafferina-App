@@ -15,7 +15,7 @@ export const Hero = () => {
             </div>
             <div className="hero-title">
               <p>
-                <span>Coffees</span> Crafted for you
+                <span>Coffees And Snacks</span> for you
               </p>
               <p className="hero-title--info">
                 We make sure everything we do honors that connection – from our

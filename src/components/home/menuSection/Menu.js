@@ -2,7 +2,7 @@ import React from "react";
 import menuProducts from "./menu-products.json";
 import { MobileMenu } from "./MobileMenu";
 import { DesktopMenu } from "./DesktopMenu";
-import { useViewport } from "../../hooks/useViewport";
+import { useViewport } from "../../../hooks/useViewport";
 import "./Menu.css";
 
 export const Menu = () => {

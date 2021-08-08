@@ -1,9 +1,9 @@
 import React from "react";
-import { Hero } from "../components/heroSection/Hero";
+import { OrderMenu } from "../components/order/orderMenu/OrderMenu";
 export const Order = () => {
   return (
     <>
-      <Hero />
+      <OrderMenu />
     </>
   );
 };

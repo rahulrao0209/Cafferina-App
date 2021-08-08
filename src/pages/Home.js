@@ -1,8 +1,8 @@
 import React from "react";
-import { Hero } from "../components/heroSection/Hero";
-import { Menu } from "../components/menuSection/Menu";
-import { SignupSection } from "../components/signup-section/SignupSection";
-import { BlogSection } from "../components/blogSection/BlogSection";
+import { Hero } from "../components/home/heroSection/Hero";
+import { Menu } from "../components/home/menuSection/Menu";
+import { SignupSection } from "../components/home//signup-section/SignupSection";
+import { BlogSection } from "../components/home/blogSection/BlogSection";
 
 export const Home = () => {
   return (
