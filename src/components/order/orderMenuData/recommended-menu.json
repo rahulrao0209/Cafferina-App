@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Whooper",
+    "price": "220",
+    "image": "./assets/images/order-page-images/recommended-menu/chicken-whooper.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chicken Cheesy",
+    "price": "80",
+    "image": "./assets/images/order-page-images/recommended-menu/chicken-cheesy.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Cheese Pizza",
+    "price": "120",
+    "image": "./assets/images/order-page-images/recommended-menu/cheese-pizza.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bacon and Cheese",
+    "price": "30",
+    "image": "./assets/images/order-page-images/recommended-menu/bacon-and-cheese.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pepper Pasta",
+    "price": "70",
+    "image": "./assets/images/order-page-images/recommended-menu/pepper-pasta.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Spaghetti Bolonese",
+    "price": "300",
+    "image": "./assets/images/order-page-images/recommended-menu/spaghetti-bolonese.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Paneer Frankie",
+    "price": "50",
+    "image": "./assets/images/order-page-images/recommended-menu/paneer-frankie.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Tomato Macroni",
+    "price": "180",
+    "image": "./assets/images/order-page-images/recommended-menu/tomato-macroni.jpg"
+  },
+  {
+    "id": 9,
+    "name": "White Sauce Pasta",
+    "price": "120",
+    "image": "./assets/images/order-page-images/recommended-menu/white-sauce-pasta.jpg"
+  }
+]

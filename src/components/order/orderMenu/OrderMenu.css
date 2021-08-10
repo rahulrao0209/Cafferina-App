@@ -2,10 +2,9 @@
   padding: 60px 0;
 }
 
-.order-item {
-  border-bottom: 0.2px solid rgb(0, 0, 0, 0.2);
-  /* border-radius: 7px; */
-  padding: 12px 16px 40px 16px;
-  width: 90%;
-  margin: 0 auto;
+.order-menu-title {
+  margin: 16px 0 4px 0;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 24px;
 }

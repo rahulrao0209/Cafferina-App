@@ -1,20 +1,18 @@
 import React from "react";
 import "./OrderItem.css";
 
-export const OrderItem = () => {
+export const OrderItem = ({ item }) => {
   return (
     <div>
       <div className="order-item">
         <div className="item-details">
-          <p className="item-name">Chicken Whooper</p>
-          <p className="item-price">Rs.220</p>
+          <p className="item-name">{item.name}</p>
+          <p className="item-price">Rs.{item.price}</p>
+          <div className="add-button">Add</div>
         </div>
         <div className="item-quanity">
           <div className="item-image">
-            <img
-              src="./assets/images/order-page-images/recommended-menu/chicken-whooper.jpg"
-              alt="chicken-whooper"
-            />
+            <img src={item.image} alt={item.name} />
           </div>
           <div className="item-choose-quantity">
             <div className="increment">+</div>

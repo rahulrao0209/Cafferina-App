@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "French Fries",
+    "price": "20",
+    "image": "./assets/images/order-page-images/snacks-menu/french-fries.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Potato Chips",
+    "price": "25",
+    "image": "./assets/images/order-page-images/snacks-menu/potato-chips.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Samosa",
+    "price": "25",
+    "image": "./assets/images/order-page-images/snacks-menu/samosa.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Flatbread",
+    "price": "10",
+    "image": "./assets/images/order-page-images/snacks-menu/flatbread.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pastries",
+    "price": "80",
+    "image": "./assets/images/order-page-images/snacks-menu/pastries.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Chip Cookies",
+    "price": "30",
+    "image": "./assets/images/order-page-images/snacks-menu/cookies.jpg"
+  }
+]
