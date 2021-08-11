@@ -1,5 +1,6 @@
 import React from "react";
 import { OrderItem } from "../orderItem/OrderItem";
+// import { Cart } from "../../cart/Cart";
 import recommendedMenuItems from "../orderMenuData/recommended-menu.json";
 import snacksMenuItems from "../orderMenuData/snacks-menu.json";
 import mealsMenuItems from "../orderMenuData/meals-menu.json";
@@ -27,6 +28,7 @@ export const OrderMenu = () => {
           return <OrderItem item={item} key={item.id} />;
         })}
       </div>
+      <div className="cart">{/* <Cart /> */}</div>
     </div>
   );
 };
