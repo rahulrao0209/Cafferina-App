@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CartBar.css";
 
 export const CartBar = ({ cartState }) => {
@@ -24,7 +25,9 @@ export const CartBar = ({ cartState }) => {
         <span> | </span>
         <p>{`Rs. ${totalPrice()}`}</p>
       </div>
-      <div className="view-cart">View cart</div>
+      <Link to="/order/view-cart" style={{ textDecoration: "none" }}>
+        <div className="view-cart">View cart</div>
+      </Link>
     </div>
   );
 };

@@ -1,5 +1,7 @@
 import React from "react";
+import { Route, Switch, useRouteMatch } from "react-router-dom";
 import { OrderItem } from "../orderItem/OrderItem";
+import { Cart } from "../../cart/Cart/Cart";
 import { CartBar } from "../../cart/CartBar/CartBar";
 import recommendedMenuItems from "../orderMenuData/recommended-menu.json";
 import snacksMenuItems from "../orderMenuData/snacks-menu.json";
@@ -26,24 +28,38 @@ export const OrderMenu = () => {
   const mealsMenu = JSON.parse(JSON.stringify(mealsMenuItems));
 
   const [cartState, dispatch] = React.useReducer(cartReducer, initialCartState);
+  const { url } = useRouteMatch();
 
   return (
     <div className="order-menu-container">
-      <div className="order-menu-items">
-        <CartBar cartState={cartState} />
-        <p className="order-menu-title">Recommended</p>
-        {recommendedMenu.map((item) => {
-          return <OrderItem item={item} key={item.id} dispatch={dispatch} />;
-        })}
-        <p className="order-menu-title">Snacks</p>
-        {snacksMenu.map((item) => {
-          return <OrderItem item={item} key={item.id} dispatch={dispatch} />;
-        })}
-        <p className="order-menu-title">Meals</p>
-        {mealsMenu.map((item) => {
-          return <OrderItem item={item} key={item.id} dispatch={dispatch} />;
-        })}
-      </div>
+      <Switch>
+        <Route path={`${url}/view-cart`}>
+          <Cart cartState={cartState} />
+        </Route>
+        <Route path="/order">
+          <div className="order-menu-items">
+            <CartBar cartState={cartState} />
+            <p className="order-menu-title">Recommended</p>
+            {recommendedMenu.map((item) => {
+              return (
+                <OrderItem item={item} key={item.id} dispatch={dispatch} />
+              );
+            })}
+            <p className="order-menu-title">Snacks</p>
+            {snacksMenu.map((item) => {
+              return (
+                <OrderItem item={item} key={item.id} dispatch={dispatch} />
+              );
+            })}
+            <p className="order-menu-title">Meals</p>
+            {mealsMenu.map((item) => {
+              return (
+                <OrderItem item={item} key={item.id} dispatch={dispatch} />
+              );
+            })}
+          </div>
+        </Route>
+      </Switch>
     </div>
   );
 };

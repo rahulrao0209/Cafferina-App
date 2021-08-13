@@ -1,18 +1,7 @@
 import React from "react";
+import "./Cart.css";
 
 export const Cart = ({ cartState }) => {
-  return (
-    <div className="cart">
-      <h1>Cart</h1>
-      {cartState.map((item) => {
-        return (
-          <p key={item.id}>
-            name: {item.name}
-            qty: {item.quantity}
-            price: {item.price}
-          </p>
-        );
-      })}
-    </div>
-  );
+  console.log("cartState in cart: ", cartState);
+  return <div className="cart">CART</div>;
 };
