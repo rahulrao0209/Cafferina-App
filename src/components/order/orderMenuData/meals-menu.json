@@ -1,36 +1,36 @@
 [
   {
-    "id": 1,
+    "id": 16,
     "name": "Burger Meal",
     "price": "80",
     "image": "./assets/images/order-page-images/meals-menu/burger-meal.jpg"
   },
   {
-    "id": 2,
+    "id": 17,
     "name": "Hot Dog Sandwitch",
     "price": "75",
     "image": "./assets/images/order-page-images/meals-menu/hot-dog-sandwitch.jpg"
   },
   {
-    "id": 3,
+    "id": 18,
     "name": "Veggie Bowl",
     "price": "100",
     "image": "./assets/images/order-page-images/meals-menu/veggie-bowl.jpg"
   },
   {
-    "id": 4,
+    "id": 19,
     "name": "Paneer Schezwan",
     "price": "250",
     "image": "./assets/images/order-page-images/meals-menu/paneer-schezwan.jpg"
   },
   {
-    "id": 5,
+    "id": 20,
     "name": "Paneer Pasanda",
     "price": "200",
     "image": "./assets/images/order-page-images/meals-menu/paneer-pasanda.jpg"
   },
   {
-    "id": 6,
+    "id": 21,
     "name": "Veggie Soup",
     "price": "110",
     "image": "./assets/images/order-page-images/meals-menu/veggie-soup.jpg"

@@ -1,0 +1,27 @@
+.cart-bar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  background: #af764c;
+  z-index: 11;
+}
+
+.cart-info {
+  display: flex;
+  font-weight: bold;
+  width: 130px;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.view-cart {
+  color: #fff;
+  font-weight: bold;
+}

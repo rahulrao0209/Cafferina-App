@@ -1,7 +1,7 @@
 import React from "react";
 import "./OrderItem.css";
 
-export const OrderItem = ({ item }) => {
+export const OrderItem = ({ item, dispatch }) => {
   const [quantity, setQuantity] = React.useState(1);
   const [itemAdded, setItemAdded] = React.useState(false);
   let price = item.price;
@@ -17,6 +17,19 @@ export const OrderItem = ({ item }) => {
       setQuantity((prevQuanity) => prevQuanity - 1);
     }
   };
+
+  React.useEffect(() => {
+    if (itemAdded) {
+      dispatch({
+        type: "add",
+        payload: { ...item, quantity: quantity, price: quantity * price },
+      });
+    } else {
+      dispatch({ type: "remove", payload: item.id });
+      setQuantity(1);
+    }
+    // eslint-disable-next-line
+  }, [itemAdded, dispatch]);
 
   return (
     <div>
