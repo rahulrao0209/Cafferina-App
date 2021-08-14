@@ -15,7 +15,7 @@
 .cart-info {
   display: flex;
   font-weight: bold;
-  width: 130px;
+  min-width: 130px;
   align-items: center;
   justify-content: space-around;
   color: #fff;
