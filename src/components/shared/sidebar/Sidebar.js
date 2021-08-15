@@ -1,9 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import "./Sidebar.css";
 import { sidebarOpenStyle, sidebarCloseStyle } from "./sidebarStyleOptions";
 
-export const Sidebar = ({ sidebarIsOpen }) => {
+export const Sidebar = ({ sidebarIsOpen, setSidebarIsOpen }) => {
+  const handleClick = () => {
+    setSidebarIsOpen(false);
+  };
+
   return (
     <>
       <div
@@ -14,14 +19,14 @@ export const Sidebar = ({ sidebarIsOpen }) => {
           <FaTimes />
         </div>
         <ul className="sidebar-menu">
-          <li className="sidebar-link">
-            <a href="#find-store">Find Store</a>
+          <li className="sidebar-link" onClick={handleClick}>
+            <Link to="/order/view-cart">Cart</Link>
           </li>
-          <li className="sidebar-link">
-            <a href="#place-order">Place Order</a>
+          <li className="sidebar-link" onClick={handleClick}>
+            <Link to="/order">Place Order</Link>
           </li>
-          <li className="sidebar-link">
-            <a href="#about-us">About us</a>
+          <li className="sidebar-link" onClick={handleClick}>
+            <Link to="/about">About us</Link>
           </li>
         </ul>
       </div>

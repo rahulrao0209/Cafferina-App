@@ -1,0 +1,38 @@
+.payment-modal {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 16px;
+  z-index: 20;
+}
+
+.payment-success {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-success-message {
+  font-size: 40px;
+  text-align: center;
+  color: #1faf3f;
+}
+
+.payment-success-icon {
+  color: #1faf3f;
+  font-size: 100px;
+}
+
+.payment-success-button {
+  background: #1faf3f;
+  padding: 8px 32px;
+  border-radius: 7px;
+}
+
+.payment-success-button a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}

@@ -21,16 +21,19 @@ export const Navbar = () => {
           >
             <SiCoffeescript />
           </div>
-          <Sidebar sidebarIsOpen={sidebarIsOpen} />
+          <Sidebar
+            sidebarIsOpen={sidebarIsOpen}
+            setSidebarIsOpen={setSidebarIsOpen}
+          />
           <ul className="navbar-links">
             <li className="navbar-link">
-              <a href="#cart">Cart</a>
+              <Link to="/order/view-cart">Cart</Link>
             </li>
             <li className="navbar-link">
-              <a href="#order-menu">Place Order</a>
+              <Link to="/order">Place Order</Link>
             </li>
             <li className="navbar-link">
-              <a href="#about-us">About us</a>
+              <Link to="/about">About us</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,25 @@
+.about-section {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #af764c;
+}
+
+.about-section h1 {
+  margin: 0 0 20px 0;
+}
+
+.about-section p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.about-section span {
+  font-family: "Courgette", cursive;
+  margin: 16px 0 0 0;
+  align-self: flex-end;
+}

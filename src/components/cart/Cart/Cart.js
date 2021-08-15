@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { PaymentModal } from "../PaymentModal/PaymentModal";
 import "./Cart.css";
 
 export const Cart = ({ cartState }) => {
+  const [showPaymentModal, setShowPaymentModal] = React.useState(false);
   const totalItems = cartState.length;
 
   const totalPrice = () => {
@@ -14,6 +16,20 @@ export const Cart = ({ cartState }) => {
       return cartPrice;
     } else return cartPrice;
   };
+
+  const handlePayment = () => {
+    setShowPaymentModal(true);
+  };
+
+  if (showPaymentModal) {
+    return (
+      <div
+        style={showPaymentModal ? { display: "block" } : { display: "none" }}
+      >
+        <PaymentModal />
+      </div>
+    );
+  }
 
   if (totalItems > 0) {
     return (
@@ -34,7 +50,9 @@ export const Cart = ({ cartState }) => {
             style={totalItems <= 0 ? { display: "none" } : { display: "flex" }}
           >
             Cart Total: Rs. {totalPrice()}
-            <div className="pay-button">Pay</div>
+            <div className="pay-button" onClick={handlePayment}>
+              Pay
+            </div>
           </div>
         </div>
       </>
