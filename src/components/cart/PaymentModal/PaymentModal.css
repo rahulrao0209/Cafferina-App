@@ -37,3 +37,11 @@
   text-decoration: none;
   color: #fff;
 }
+
+/*Desktop Screen Size*/
+@media (min-width: 992px) {
+  .payment-success-button:hover {
+    cursor: pointer;
+    background: #10a02f;
+  }
+}

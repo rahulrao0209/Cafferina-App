@@ -83,3 +83,13 @@
   background: #af764c;
   color: #fff;
 }
+
+/*Desktop Screen Size*/
+@media (min-width: 992px) {
+  .add-items p:hover,
+  .pay-button:hover {
+    background: #3f1f01;
+    color: #fff;
+    transition: all 0.5s ease;
+  }
+}

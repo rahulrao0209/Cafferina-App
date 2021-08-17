@@ -41,8 +41,6 @@
 
 .post-content-photo img {
   width: 85%;
-  /* width: 700px;
-  height: 500px; */
 }
 
 .post-content--content {
@@ -74,4 +72,13 @@
 
 .post-author-details--details p {
   color: rgba(0, 0, 0, 0.5);
+}
+
+/*Mobile Landscape Screen*/
+@media (min-width: 480px) {
+  .post-info {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 300px;
+  }
 }

@@ -39,24 +39,30 @@ export const OrderMenu = () => {
         <Route path="/order">
           <div className="order-menu-items">
             <CartBar cartState={cartState} />
-            <p className="order-menu-title">Recommended</p>
-            {recommendedMenu.map((item) => {
-              return (
-                <OrderItem item={item} key={item.id} dispatch={dispatch} />
-              );
-            })}
-            <p className="order-menu-title">Snacks</p>
-            {snacksMenu.map((item) => {
-              return (
-                <OrderItem item={item} key={item.id} dispatch={dispatch} />
-              );
-            })}
-            <p className="order-menu-title">Meals</p>
-            {mealsMenu.map((item) => {
-              return (
-                <OrderItem item={item} key={item.id} dispatch={dispatch} />
-              );
-            })}
+            <div className="recommended-items">
+              <p className="order-menu-title">Recommended</p>
+              {recommendedMenu.map((item) => {
+                return (
+                  <OrderItem item={item} key={item.id} dispatch={dispatch} />
+                );
+              })}
+            </div>
+            <div className="snacks-items">
+              <p className="order-menu-title">Snacks</p>
+              {snacksMenu.map((item) => {
+                return (
+                  <OrderItem item={item} key={item.id} dispatch={dispatch} />
+                );
+              })}
+            </div>
+            <div className="meals-items">
+              <p className="order-menu-title">Meals</p>
+              {mealsMenu.map((item) => {
+                return (
+                  <OrderItem item={item} key={item.id} dispatch={dispatch} />
+                );
+              })}
+            </div>
           </div>
         </Route>
       </Switch>

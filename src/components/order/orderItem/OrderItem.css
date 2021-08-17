@@ -61,3 +61,62 @@
   z-index: 10;
   box-shadow: 2px 6px 6px rgb(0, 0, 0, 0.3);
 }
+
+/*Tablet screen*/
+@media (min-width: 768px) {
+  .order-item {
+    position: relative;
+    flex-flow: column nowrap;
+    border-radius: 10px;
+    width: 342px;
+    box-shadow: 2px 6px 6px rgb(0, 0, 0, 0.3);
+  }
+
+  .item-quantity {
+    position: absolute;
+  }
+
+  .item-image {
+    position: relative;
+    top: -100px;
+    width: 340px;
+    height: 220px;
+  }
+
+  .item-details {
+    position: relative;
+    top: 225px;
+    left: -70px;
+  }
+
+  .item-choose-quantity {
+    position: relative;
+    top: -60px;
+    left: 200px;
+  }
+
+  .add-button {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+  }
+}
+
+/*Mobile Landscape Screen*/
+@media (min-width: 480px) {
+}
+
+/*Desktop Screen*/
+@media (min-width: 992px) {
+  .order-item:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .add-button {
+    transition: all 0.8s;
+  }
+  .add-button:hover {
+    background: hsl(25, 39%, 20%);
+  }
+}
