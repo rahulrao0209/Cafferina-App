@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cafferina-app/static/css/main.4e10c088.chunk.css",
+    "main.js": "/cafferina-app/static/js/main.4ca3613d.chunk.js",
+    "main.js.map": "/cafferina-app/static/js/main.4ca3613d.chunk.js.map",
+    "runtime-main.js": "/cafferina-app/static/js/runtime-main.da771ffd.js",
+    "runtime-main.js.map": "/cafferina-app/static/js/runtime-main.da771ffd.js.map",
+    "static/js/2.e221b486.chunk.js": "/cafferina-app/static/js/2.e221b486.chunk.js",
+    "static/js/2.e221b486.chunk.js.map": "/cafferina-app/static/js/2.e221b486.chunk.js.map",
+    "static/js/3.49451fdf.chunk.js": "/cafferina-app/static/js/3.49451fdf.chunk.js",
+    "static/js/3.49451fdf.chunk.js.map": "/cafferina-app/static/js/3.49451fdf.chunk.js.map",
+    "index.html": "/cafferina-app/index.html",
+    "static/css/main.4e10c088.chunk.css.map": "/cafferina-app/static/css/main.4e10c088.chunk.css.map",
+    "static/js/2.e221b486.chunk.js.LICENSE.txt": "/cafferina-app/static/js/2.e221b486.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da771ffd.js",
+    "static/js/2.e221b486.chunk.js",
+    "static/css/main.4e10c088.chunk.css",
+    "static/js/main.4ca3613d.chunk.js"
+  ]
+}
