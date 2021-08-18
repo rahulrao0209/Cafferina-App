@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Cafferina-app/static/css/main.4e10c088.chunk.css",
-    "main.js": "/Cafferina-app/static/js/main.4ca3613d.chunk.js",
-    "main.js.map": "/Cafferina-app/static/js/main.4ca3613d.chunk.js.map",
-    "runtime-main.js": "/Cafferina-app/static/js/runtime-main.587725ab.js",
-    "runtime-main.js.map": "/Cafferina-app/static/js/runtime-main.587725ab.js.map",
-    "static/js/2.e221b486.chunk.js": "/Cafferina-app/static/js/2.e221b486.chunk.js",
-    "static/js/2.e221b486.chunk.js.map": "/Cafferina-app/static/js/2.e221b486.chunk.js.map",
-    "static/js/3.49451fdf.chunk.js": "/Cafferina-app/static/js/3.49451fdf.chunk.js",
-    "static/js/3.49451fdf.chunk.js.map": "/Cafferina-app/static/js/3.49451fdf.chunk.js.map",
-    "index.html": "/Cafferina-app/index.html",
-    "static/css/main.4e10c088.chunk.css.map": "/Cafferina-app/static/css/main.4e10c088.chunk.css.map",
-    "static/js/2.e221b486.chunk.js.LICENSE.txt": "/Cafferina-app/static/js/2.e221b486.chunk.js.LICENSE.txt"
+    "main.css": "/Cafferina-App/static/css/main.4e10c088.chunk.css",
+    "main.js": "/Cafferina-App/static/js/main.4ca3613d.chunk.js",
+    "main.js.map": "/Cafferina-App/static/js/main.4ca3613d.chunk.js.map",
+    "runtime-main.js": "/Cafferina-App/static/js/runtime-main.928b0400.js",
+    "runtime-main.js.map": "/Cafferina-App/static/js/runtime-main.928b0400.js.map",
+    "static/js/2.e221b486.chunk.js": "/Cafferina-App/static/js/2.e221b486.chunk.js",
+    "static/js/2.e221b486.chunk.js.map": "/Cafferina-App/static/js/2.e221b486.chunk.js.map",
+    "static/js/3.49451fdf.chunk.js": "/Cafferina-App/static/js/3.49451fdf.chunk.js",
+    "static/js/3.49451fdf.chunk.js.map": "/Cafferina-App/static/js/3.49451fdf.chunk.js.map",
+    "index.html": "/Cafferina-App/index.html",
+    "static/css/main.4e10c088.chunk.css.map": "/Cafferina-App/static/css/main.4e10c088.chunk.css.map",
+    "static/js/2.e221b486.chunk.js.LICENSE.txt": "/Cafferina-App/static/js/2.e221b486.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.587725ab.js",
+    "static/js/runtime-main.928b0400.js",
     "static/js/2.e221b486.chunk.js",
     "static/css/main.4e10c088.chunk.css",
     "static/js/main.4ca3613d.chunk.js"
