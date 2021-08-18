@@ -65,7 +65,7 @@ export const Cart = ({ cartState }) => {
         </div>
         <div className="empty-cart">
           <img
-            src="/assets/images/cart-page/empty-cart.jpg"
+            src="/assets/images/cart-page-image/empty-cart.jpg"
             alt="Your cart is empty"
           />
         </div>
