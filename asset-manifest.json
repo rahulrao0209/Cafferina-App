@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Cafferina-App/static/css/main.4e10c088.chunk.css",
-    "main.js": "/Cafferina-App/static/js/main.55443291.chunk.js",
-    "main.js.map": "/Cafferina-App/static/js/main.55443291.chunk.js.map",
+    "main.js": "/Cafferina-App/static/js/main.3914fe8d.chunk.js",
+    "main.js.map": "/Cafferina-App/static/js/main.3914fe8d.chunk.js.map",
     "runtime-main.js": "/Cafferina-App/static/js/runtime-main.928b0400.js",
     "runtime-main.js.map": "/Cafferina-App/static/js/runtime-main.928b0400.js.map",
     "static/js/2.edcc2f34.chunk.js": "/Cafferina-App/static/js/2.edcc2f34.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.928b0400.js",
     "static/js/2.edcc2f34.chunk.js",
     "static/css/main.4e10c088.chunk.css",
-    "static/js/main.55443291.chunk.js"
+    "static/js/main.3914fe8d.chunk.js"
   ]
 }
