@@ -4,41 +4,33 @@
 }
 
 .hero-section {
-  min-height: 500px;
-  background: rgb(255, 255, 240);
+  min-height: 400px;
+  background-color: rgb(255, 255, 240);
   font-family: "Courgette", cursive;
 }
 
 .hero-container {
   display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
   margin-top: 50px;
   padding: 16px 0 0 0;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero-content {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-.hero-image {
-  display: flex;
-  flex-direction: column;
 }
 
 .hero-image img {
-  width: 90%;
+  width: 100%;
   align-self: center;
 }
 
 .hero-title {
   padding: 0 12px;
   color: #af764c;
-  font-size: 40px;
+  font-size: 32px;
   max-width: 300px;
-  margin: 25px 0;
+  margin: 12px 0;
   text-align: center;
 }
 
@@ -51,24 +43,29 @@
 }
 
 .hero-button {
-  background: rgb(240, 235, 210);
-  color: #af764c;
+  display: block;
+  background-color: rgb(240, 235, 210);
   font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  text-align: center;
-  padding: 12px 24px;
-  margin: 16px 0;
+
+  
+  padding: 8px 24px;
+  margin: 16px auto;
   width: 80%;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 24px;
-  margin-bottom: 60px;
+  font-size: 16px;
+}
+
+.hero-button > a {
+  color: #af764c;
+  text-decoration: none;
+  text-align: center;
 }
 
 /*Mobile Landscape screen*/
 @media (min-width: 480px) {
   .hero-image img {
-    width: 70%;
+    width: 100%;
   }
 
   .hero-title {
@@ -76,23 +73,10 @@
   }
 }
 
-/*Tablet screen*/
-@media (min-width: 768px) {
-}
-
 /*Desktop Screen*/
 @media (min-width: 992px) {
   .hero-container {
-    position: relative;
-  }
-
-  .hero-content {
     flex-flow: row nowrap;
-    align-items: center;
-  }
-
-  .hero-image img {
-    width: 100%;
   }
 
   .hero-title {
@@ -111,9 +95,6 @@
     padding: 12px 12px;
     font-size: 22px;
     border-radius: 10px;
-    position: absolute;
-    top: 370px;
-    right: 165px;
   }
 
   .hero-button:hover {
