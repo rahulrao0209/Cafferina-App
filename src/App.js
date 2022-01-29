@@ -4,7 +4,7 @@ import { Home } from "../src/pages/Home";
 import { Order } from "../src/pages/Order";
 import { About } from "../src/pages/About";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { Post1 } from "./components/posts/Post1";
 import { Post2 } from "./components/posts/Post2";
